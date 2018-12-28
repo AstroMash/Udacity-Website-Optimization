@@ -1,3 +1,11 @@
+## My Optimizations
+
+1. Removed Google Analytics code from all pages
+2. Removed Google Web Font
+3. Added media=print to non-critical print CSS file
+
+With these adjustments, my final score on Google PageSpeed Insights was 100 for both desktop and mobile. 
+
 ## Website Performance Optimization portfolio project
 
 Your challenge, if you wish to accept it (and we sure hope you will), is to optimize this online portfolio for speed! In particular, optimize the critical rendering path and make this page render as quickly as possible by applying the techniques you've picked up in the [Critical Rendering Path course](https://www.udacity.com/course/ud884).
