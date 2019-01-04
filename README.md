@@ -6,18 +6,18 @@
 4. Resized main image on Pizzaria page to be the max displayed size
 
 #### Initial PageSpeed scores (mobile/desktop):
-*Index: 89/92
-*Pizza: 62/96
-*Project 2048: 99/100
-*Project Mobile: 98/100
-*Project WebPerf: 99/100
+* Index: 89/92
+* Pizza: 62/96
+* Project 2048: 99/100
+* Project Mobile: 98/100
+* Project WebPerf: 99/100
 
-####Initial PageSpeed scores (mobile/desktop):
-*Index: 100/100
-*Pizza: 100/100
-*Project 2048: 100/100
-*Project Mobile: 100/100
-*Project WebPerf: 100/100
+#### Final PageSpeed scores (mobile/desktop):
+* Index: 100/100
+* Pizza: 100/100
+* Project 2048: 100/100
+* Project Mobile: 100/100
+* Project WebPerf: 100/100
 
 ## Website Performance Optimization portfolio project
 
