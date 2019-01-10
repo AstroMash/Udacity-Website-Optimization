@@ -1,3 +1,15 @@
+# Website Optimization
+
+My challenge with this project wass to optimize this online portfolio for speed! In particular, to optimize the critical rendering path and make this page render as quickly as possible by applying the techniques I picked up in Udacity's Critical Rendering Path course.
+
+## Get started
+
+* Clone or download this repo
+* Open index.html in a web browser
+
+[Demo](https://popshift.net/optimize)
+
+
 ## My Optimizations
 
 1. Removed Google Analytics (not so much for performance as much as it's just unused)
@@ -10,10 +22,12 @@
 8. Pizzaria - Resized main image and pizza image to be the max displayed size
 
 #### Initial Performance (Pizzaria)
+* Average time to resize pizzas: ~100ms
 * Average scripting time to generate 10 frames: ~20ms
 * Average scrolling framerate: ~30 fps
 
 #### Final Performance (Pizzaria)
+* Average time to resize pizzas: ~1.5ms
 * Average scripting time to generate 10 frames: ~0.7ms
 * Average scrolling framerate: ~60 fps
 
