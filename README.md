@@ -1,12 +1,13 @@
 ## My Optimizations
 
-1. Removed unused/unnecessary Google resources from all pages
-2. Added media=print to non-critical print CSS file
-3. Pizzaria - Removed the determineDx function and refactored the changePizzaSizes function to adjust pizza images via percentage widths
-4. Pizzaria - Moved scrollTop definition outside of loop in updatePositions.
-5. Pizzaria - Moved actual positioning of background pizzas to it's own function (setPositions) that doesn't calculate scrollTop so that a forced reflow doesn't happen on page load. Function setPositions is called from updatePositions on scrolling.
-6. Pizzaria - Changed number of background pizzas to 32.
-7. Resized main image on Pizzaria page to be the max displayed size
+1. Removed Google Analytics (not so much for performance as much as it's just unused)
+2. Implemented [WebFontLoader](https://github.com/typekit/webfontloader) for asyncronous loading of Google Web Fonts
+3. Added media=print to non-critical print CSS file
+4. Pizzaria - Removed the determineDx function and refactored the changePizzaSizes function to adjust pizza images via percentage widths
+5. Pizzaria - Moved scrollTop definition outside of loop in updatePositions.
+6. Pizzaria - Moved actual positioning of background pizzas to it's own function (setPositions) that doesn't calculate scrollTop so that a forced reflow doesn't happen on page load. Function setPositions is called from updatePositions on scrolling.
+7. Pizzaria - Changed number of background pizzas to 32.
+8. Pizzaria - Resized main image and pizza image to be the max displayed size
 
 #### Initial Performance (Pizzaria)
 * Average scripting time to generate 10 frames: ~20ms

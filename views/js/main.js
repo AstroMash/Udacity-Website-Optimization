@@ -492,7 +492,6 @@ function logAverageFrame(times) {   // times is the array of User Timing measure
 
 function setPositions(scrollTop = 0) {
   var items = document.querySelectorAll('.mover');
-  // document.body.scrollTop is no longer supported in Chrome.
   for (var i = 0; i < items.length; i++) {
     var phase = Math.sin((scrollTop / 1250) + (i % 5));
     items[i].style.left = items[i].basicLeft + 100 * phase + 'px';
